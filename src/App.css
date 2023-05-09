@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1% 5%;
+}
+
+.nav{
+  object-fit: contain;
+}
+
+.sidebar{
+  color: white;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.sidebar button{
+  width: 20%;
+}
+
+.iconImages{
+  height: 15vh;
+}
+
+.iconsRow{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
